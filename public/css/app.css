@@ -1,0 +1,29 @@
+#cluster-map {
+    width:100%;
+    height:500px;
+}
+#map {
+    height: 300px;
+}
+.img-index {
+    object-fit: cover;
+    height: 300px;
+    width: 100%
+}
+.index-view-btn {
+    background-color:#212529 ;
+    border-color: #212529;
+}
+.index-view-btn:hover {
+    background-color:black ;
+    border-color: black;
+}
+.img-show-pg {
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+}
+.custom-img-thumbnail {
+    height: 200px;
+    width: 200px;
+}

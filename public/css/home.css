@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    background: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url("https://res.cloudinary.com/dfvpybkta/image/upload/v1624146097/WorkoutPlaces/luis-vidal-FodEsaNZs48-unsplash_1_etq2yj.jpg");
+    background-size: cover;
+    text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 5rem rgba(0,0,0,0.4);
+}
+#join-btn {
+    color: rgb(46, 46, 46)
+}
+header {
+    width: 100%;
+    
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.87)
+}
+main {
+    height: 100%;
+    flex-direction: column;
+    
+}
+.navbar-brand {
+    font-size: 20px;
+    margin-left: 12rem;
+    
+}
+.nav-link {
+    font-size: 16px;
+    border-bottom: 0.2rem solid transparent;
+}
+.nav-link.active, .nav-link.active:hover  {
+    border-bottom: 0.2rem solid white;
+}
+
+.nav-link:hover {
+    border-bottom-color:rgba(255,255,255,.55);
+    color: rgba(255,255,255,.55) ;
+
+}
+.navbar-nav {
+    font-size: 20px;
+    margin-right: 12rem
+}
+img {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+h5 {
+    display: block
+}
