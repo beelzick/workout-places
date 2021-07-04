@@ -29,7 +29,7 @@ const dbUrl = process.env.DB_URL
 
 
 //mongoose
-mongoose.connect(dbUrl, {
+mongoose.connect(`${dbUrl}`, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
@@ -50,7 +50,7 @@ app.set('views', path.join(__dirname, 'views'))
 const secret = process.env.SECRET || 'thisshouldbeabettersecret'
 
 const store = new MongoStore ({
-    mongoUrl: dbUrl,
+    mongoUrl: `${dbUrl}`,
     secret,
     touchAfter: 24 * 60 * 60
 })
