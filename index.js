@@ -24,7 +24,8 @@ const placeRoutes = require('./routes/places')
 const reviewRoutes = require('./routes/reviews')
 const MongoStore = require('connect-mongo')
 
-const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/workoutPlaces'
+const dbUrl = process.env.DB_URL
+// || 'mongodb://localhost:27017/workoutPlaces'
 
 
 //mongoose
