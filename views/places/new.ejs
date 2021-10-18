@@ -1,48 +1,48 @@
 <% layout('layouts/boilerplate') %>
-<div class="row">
-    <h1 class="text-center">New Place</h1>
-    <div class="col-md-6 offset-md-3">
-        <form action="/places" method="POST" novalidate class="validated-form" enctype="multipart/form-data">
-            <div class="mb-3">
-                <label class="form-label" for="name">Place Name</label>
-                <input class="form-control" type="text" placeholder="Place name" name="place[name]" id="name" required>
+<div class='row'>
+    <h1 class='text-center'>New Place</h1>
+    <div class='col-md-6 offset-md-3'>
+        <form action='/places' method='POST' novalidate class='validated-form' enctype='multipart/form-data'>
+            <div class='mb-3'>
+                <label class='form-label' for='name'>Place Name</label>
+                <input class='form-control' type='text' placeholder='Place name' name='place[name]' id='name' required>
             </div>
-            <div class="valid-feedback">
+            <div class='valid-feedback'>
                 Looks good!
             </div>
-            <div class="mb-3">
-                <label class="form-label" for="location">Location</label>
-                <input class="form-control" type="text" placeholder="Location" name="place[location]" id="location" required>
-                <div class="valid-feedback">
+            <div class='mb-3'>
+                <label class='form-label' for='location'>Location</label>
+                <input class='form-control' type='text' placeholder='Location' name='place[location]' id='location' required>
+                <div class='valid-feedback'>
                     Looks good!
                 </div>
             </div>
-            <p class="mb-0 pb-0">Add images</p>
-            <div class="mb-3">
-                <label class="form-label" for="image"></label>
-                <input class="form-control" type="file" name="image" id="" multiple>
+            <p class='mb-0 pb-0'>Add images</p>
+            <div class='mb-3'>
+                <label class='form-label' for='image'></label>
+                <input class='form-control' type='file' name='image' id='' multiple>
             </div>
-            <div class="mb-3">
-                <label for="entry">Entry Price</label>
-                <div class="input-group">
-                    <span class="input-group-text" id="entry-price-label">$</span>
-                    <input type="text" name="place[entry]" class="form-control" placeholder="0.00" aria-label="entry-price-label" aria-describedby="entry-price-label" required>
-                    <div class="valid-feedback">
+            <div class='mb-3'>
+                <label for='entry'>Entry Price</label>
+                <div class='input-group'>
+                    <span class='input-group-text' id='entry-price-label'>$</span>
+                    <input type='text' name='place[entry]' class='form-control' placeholder='0.00' aria-label='entry-price-label' aria-describedby='entry-price-label' required>
+                    <div class='valid-feedback'>
                         Looks good!
                     </div>
                 </div>
             </div>
-            <div class="mb-3">
-                <label class="form-label" for="description">Description</label>
-                <textarea class="form-control" type="text" placeholder="Description" name="place[description]" id="description" required></textarea>
-                <div class="valid-feedback">
+            <div class='mb-3'>
+                <label class='form-label' for='description'>Description</label>
+                <textarea class='form-control' type='text' placeholder='Description' name='place[description]' id='description' required></textarea>
+                <div class='valid-feedback'>
                     Looks good!
                 </div>
             </div>
-            <div class="mb-3">
-                <button class="btn btn-success">Add new place</button>
+            <div class='mb-3'>
+                <button class='btn btn-success'>Add new place</button>
             </div>
         </form>
-        <a href="/places">All places</a>
+        <a href='/places'>All places</a>
     </div>
 </div>

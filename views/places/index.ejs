@@ -1,25 +1,25 @@
 <% layout('layouts/boilerplate') %>
-<div id="cluster-map" class="shadow mb-3"></div> 
+<div id='cluster-map' class='shadow mb-3'></div> 
 <h1>Shared places</h1>
 
 <% for(place of places) { %> 
-    <div class="card mb-3">
-        <div class="row">
-            <div class="col-md-4">
+    <div class='card mb-3'>
+        <div class='row'>
+            <div class='col-md-4'>
                 <% if(place.images.length) { %> 
-                <img class="img-fluid img-index shadow" src="<%= place.images[0].url %>" alt="">
+                <img class='img-fluid img-index shadow' src='<%= place.images[0].url %>' alt=''>
                 <% } else { %>
-                    <img class="img-fluid img-index shadow" src="https://res.cloudinary.com/dfvpybkta/image/upload/v1622848693/WorkoutPlaces/ekajeu1y2k5rd9jink7f.jpg" alt="">
+                    <img class='img-fluid img-index shadow' src='https://res.cloudinary.com/dfvpybkta/image/upload/v1622848693/WorkoutPlaces/ekajeu1y2k5rd9jink7f.jpg' alt=''>
                 <% } %> 
             </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h5 class="card-title"><%= place.name  %></h5>
-                    <p class="card-text"><%= place.description  %></p>
-                    <p class="card-text">
-                        <small class="text-muted"><%= place.location %></small>
+            <div class='col-md-8'>
+                <div class='card-body'>
+                    <h5 class='card-title'><%= place.name  %></h5>
+                    <p class='card-text'><%= place.description  %></p>
+                    <p class='card-text'>
+                        <small class='text-muted'><%= place.location %></small>
                     </p>
-                    <a class="btn btn-secondary index-view-btn rounded-pill" href="/places/<%= place._id %> ">View place</a>
+                    <a class='btn btn-secondary index-view-btn rounded-pill' href='/places/<%= place._id %> '>View place</a>
                 </div>
             </div>
         </div>
@@ -30,5 +30,5 @@
     const places = {features: <%-JSON.stringify(places)%>}
 </script>
 
-<script src="js/clusterMap.js"></script>
+<script src='js/clusterMap.js'></script>
 

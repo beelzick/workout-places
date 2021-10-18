@@ -3,10 +3,9 @@ const router = express.Router()
 const wrapAsync = require('../utils/wrapAsync')
 const places = require('../controllers/places')
 const multer = require('multer')
-const {storage} = require('../cloudinary')
-const upload = multer({storage})
+const { storage } = require('../cloudinary')
+const upload = multer({ storage })
 const { isLoggedIn, isAuthor, validatePlace } = require('../middleware')
-
 
 router.route('/')
     .get(wrapAsync(places.index))

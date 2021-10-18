@@ -3,6 +3,7 @@ module.exports.descriptors = [
     'Strong',
     'Blue',
     'Hardcore',
+    'Just',
     'Gold',
     'Pitbull',
     'Brutal',

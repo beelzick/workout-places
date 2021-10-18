@@ -1,7 +1,3 @@
-if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').config()
-}
-
 require('dotenv').config()
 const express = require('express')
 const app = express();
@@ -10,7 +6,6 @@ const mongoose = require('mongoose')
 const ejsMate = require('ejs-mate')
 const session = require('express-session')
 const flash = require('connect-flash')
-const { placeSchema, reviewSchema } = require('./schemas')
 const ExpressError = require('./utils/ExpressError')
 const methodOverride = require('method-override')
 const passport = require('passport')
@@ -38,9 +33,9 @@ mongoose.connect(`${dbUrl}`, {
 
 const db = mongoose.connection;
 
-db.on("error", console.error.bind(console, "connection error:"))
-db.once("open", () => {
-    console.log("Database connected")
+db.on('error', console.error.bind(console, 'connection error:'))
+db.once('open', () => {
+    console.log('Database connected')
 })
 
 app.engine('ejs', ejsMate)
@@ -49,12 +44,12 @@ app.set('views', path.join(__dirname, 'views'))
 
 const secret = process.env.SECRET || 'thisshouldbeabettersecret'
 
-const store = new MongoStore ({
+const store = new MongoStore({
     mongoUrl: `${dbUrl}`,
     secret,
     touchAfter: 24 * 60 * 60
 })
-store.on('error', function(e) {
+store.on('error', function (e) {
     console.log('SESSION STORE ERROR', e)
 })
 
@@ -114,7 +109,7 @@ app.all('*', (req, res, next) => {
 
 app.use((err, req, res, next) => {
     const { statusCode = 500, message = 'Something went wrong' } = err
-    if (!err.message) err.message = "Oh, no something went wrong"
+    if (!err.message) err.message = 'Oh, no something went wrong'
 
     res.status(statusCode).render('error', { err })
 })
