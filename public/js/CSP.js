@@ -21,7 +21,7 @@ const connectSrcUrls = [
     'https://b.tiles.mapbox.com/',
     'https://events.mapbox.com/',
 ];
-const fontSrcUrls = [];
+const fontSrcUrls = ['https://fonts.gstatic.com/'];
 
 module.exports.contentSecurityPolicyBody = ({
     directives: {
