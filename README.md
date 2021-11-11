@@ -28,8 +28,8 @@ This application has the following features:
 <img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/git-icon.svg" alt="Git" width="26px" height="26px">
 <img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="26px" height="26px">
 <img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/bootstrap.svg" alt="Bootstrap" width="26px" height="26px">
-<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/express.svg" alt="Express" width="26px" height="26px">
 <img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/mapbox.svg" alt="Mapbox" width="26px" height="26px">
+<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/express.svg" alt="Express" width="26px" height="26px">
 
 <br />
 <br />
