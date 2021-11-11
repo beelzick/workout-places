@@ -2,7 +2,7 @@
 
 ## General info
 
-Workout places is a project that allows users to add a training spots (gyms, SW parks, pitches etc.)
+Workout places is a project that allows users to add training spots to the website places databse (gyms, SW parks, pitches etc.)
 
 This application has the following features:
 
