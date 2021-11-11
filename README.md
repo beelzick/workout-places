@@ -1,28 +1,39 @@
-# Workout Places
-Showcase project which mainly focuses on backend side, built on top of Express.js, MongoDB and Mapbox
+# [Workout Places][link]
 
 ## General info
 
-Workout places is a project that allows users to add a place where it is possible to do training. 
+Workout places is a project that allows users to add a training spots (gyms, SW parks, pitches etc.)
 
 This application has the following features:
-* maps
+
+* express server
+* ejs templating
+* maps (mapbox)
 * CRUD
 * image upload
 * forms
 * comments
-* session & cookies
+* sessions & cookies
 * basic website security 
 * responsiveness
 * authentication & authorization
 
-## Setup
-To run this project install it locally using npm:
+## Technology Stack
 
-```
-$ npm install
-$ node index.js
-```
+<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="26px" height="26px">
+<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="26px" height="26px">
+<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="26px" height="26px">
+<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/mongodb-icon.svg" alt="MongoDB" width="26px" height="26px">
+<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/nodejs-icon.svg" alt="Node.js" width="26px" height="26px">
+<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/git-icon.svg" alt="Git" width="26px" height="26px">
+<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="26px" height="26px">
+<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/bootstrap.svg" alt="Bootstrap" width="26px" height="26px">
+<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/express.svg" alt="Express" width="26px" height="26px">
+<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/mapbox.svg" alt="Mapbox" width="26px" height="26px">
 
-You can also check this project in the live version here:
-https://workout-places-showcase.herokuapp.com/
+<br />
+<br />
+
+## Website - [Link][link]
+
+[link]: https://workout-places-showcase.herokuapp.com/
