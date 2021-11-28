@@ -9,6 +9,7 @@ This application has the following features:
 * express server
 * ejs templating
 * maps (mapbox)
+* REST api
 * CRUD
 * image upload
 * forms
