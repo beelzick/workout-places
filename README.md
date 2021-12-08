@@ -1,6 +1,9 @@
-# [Workout Places][link]
+# Workout Places
+
+## New Refactored Version - [link](https://github.com/beelzick/workout-places-v2)
 
 ## General info
+Old version of website Workout Places it has been refactored with React, Next.js and TypeScript.
 
 Workout places is a backend project that allows users to add training spots to the website places databse (gyms, SW parks, pitches etc.)
 
@@ -34,7 +37,3 @@ This application has the following features:
 
 <br />
 <br />
-
-## Website - [Link][link]
-
-[link]: https://workout-places-showcase.herokuapp.com/
